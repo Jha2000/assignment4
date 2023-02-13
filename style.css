@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 134);
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.first{
+    border: 1px solid black;
+    margin: 30px;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+}
+.imgbx{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.left h4{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+.right h4{
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.second{
+    border: 1px solid black;
+    height: 250px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+}
+.third{
+    border: 1px solid black;
+    height: 250px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #fff;
+}
+.fourth{
+    border: 1px solid black;
+    height: 250px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #ffff;
+}
+.first .right img{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+.second .right img{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid green;
+    border-radius: 2px;
+
+}
+.third .right img{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid green;
+    border-radius: 2px;
+
+}
+.fourth .right img{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid green;
+    border-radius: 2px;
+}
